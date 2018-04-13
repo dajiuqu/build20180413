@@ -1,0 +1,325 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>cat shop</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .clearfix:before {
+            content: "";
+            display: table;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        ul, ol, li {
+            list-style: none;
+        }
+
+        .container {
+            width: 1050px;
+            margin: 0 auto;
+        }
+
+            .container > ul > li {
+                width: 200px;
+                float: left;
+                transition: all 0.5s;
+                overflow: hidden;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+                .container > ul > li:hover {
+                    box-shadow: 0 2px 10px #808080;
+                    transform: translate(0,-5px);
+                    z-index:500;
+                }
+
+                    .container > ul > li:hover .comment {
+                        bottom: 0px;
+                        background: #ff6a00;
+                        opacity: 1;
+                    }
+
+        .content {
+            text-align: center;
+            line-height: 20px;
+            position: relative;
+        }
+
+            .content .main img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .content .comment {
+                position: absolute;              
+                bottom: -40px;
+                width:100%;
+                left: 0px;
+                opacity: 0;
+                transition: all 0.3s;
+            }
+
+        .comment h3 span {
+            display: block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>你好梦</div>
+        <ul class="clearfix">
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/2.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/1.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/3.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/4.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/5.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/6.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/7.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/8.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/9.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/2.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/1.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/3.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/4.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/5.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/6.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/7.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/8.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="main">
+                        <h3>印度神猫</h3>
+                        <a href="#"><img src="images/9.jpg" /></a>
+                        <p><span>23万</span><del>20万</del></p>
+                    </div>
+                    <div class="comment">
+                        <h3><span>印度神猫 真是吊 炸天啊，sfaf都看呆我了 </span></h3>
+                        <p>来自傻逼的评论</p>
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
+        <div>你好梦</div>
+    </div>
+
+</body>
+</html>

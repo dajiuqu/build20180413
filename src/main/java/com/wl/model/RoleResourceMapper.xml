@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wl.model.RoleResourceMapper">
+	<insert id="insert" parameterType="RoleResource">
+		insert into
+		roleresource(id,roleid,resourceid)
+		values(#{id},#{roleid},#{resourceid})
+	</insert>
+	<delete id="delete" parameterType="String">
+		delete from roleresource
+		where
+		id=#{id}
+	</delete>
+	<update id="update" parameterType="RoleResource">
+		update roleresource
+		set
+		roleid=#{roleid},
+		resourceid=#{resourceid}
+		where id=#{id}
+
+	</update>
+	<select id="find" parameterType="String" resultType="RoleResource">
+		select *
+		from roleresource
+		where id=#{id}
+	</select>
+	<select id="findAll" resultType="RoleResource">
+		select * from roleresource
+	</select>
+</mapper>
